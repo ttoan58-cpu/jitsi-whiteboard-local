@@ -1,4 +1,3 @@
-version: '3.5'
 
 services:
     whiteboard:
@@ -9,4 +8,4 @@ services:
         networks:
             meet.jitsi:
               aliases:
-                  - whiteboard.meet.jitsi
+                  - whiteboard.iot.meeting
