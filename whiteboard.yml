@@ -8,4 +8,4 @@ services:
         networks:
             meet.jitsi:
               aliases:
-                  - whiteboard.iot.meeting
+                  - whiteboard.iot.meeting   ## Change my_domain
