@@ -37,3 +37,14 @@ If you plan to install the jitsi-meet stack on a Kubernetes cluster you can find
 ## TODO
 
 * Builtin TURN server.
+
+* 
+## Change Frontend
+docker cp /home/iotvn/watermark.svg docker-jitsi-meet-web-1:/usr/share/jitsi-meet/images/watermark.svg
+docker cp /home/iotvn/13.png docker-jitsi-meet-web-1:/usr/share/jitsi-meet/images/welcome-background.png
+docker cp /home/iotvn/favicon.svg docker-jitsi-meet-web-1:/usr/share/jitsi-meet/images/favicon.svg
+
+docker cp /home/iotvn/app.bundle.min.js docker-jitsi-meet-web-1:/usr/share/jitsi-meet/libs/app.bundle.min.js
+docker cp /home/iotvn/main-vi.json docker-jitsi-meet-web-1:/usr/share/jitsi-meet/lang/main-vi.json
+
+
